@@ -1,2 +1,2 @@
 # android-begins
-Starting Android development
+These are repositories for Android projects.
