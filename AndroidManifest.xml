@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
+  <uses-feature android:name="android.hardware.camera.any"
+                android:required="true" />
+  <uses-sdk android:minSdkVersion="7"
+            android:targetSdkVersion="19" />
   <application android:icon="@drawable/app_icon.png">
       <activity android:name="com.github.magma1983.MainActivity"
                 android:label="@string/label">
